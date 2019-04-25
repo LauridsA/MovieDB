@@ -1,1 +1,1 @@
-web: python ./MovieDB/manage.py run_gunicorn
+web: gunicorn ./MovieDB/MovieDB.wsgy:application --pythonpath="$PWD/MovieDB" --log-level -
