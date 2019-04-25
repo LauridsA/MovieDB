@@ -10,10 +10,10 @@ https://docs.djangoproject.com/en/2.2/howto/deployment/wsgi/
 import os
 #from whitenoise.django import DjangoWhiteNoise
 from django.core.wsgi import get_wsgi_application
+import django.core.handlers.wsgi
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'MovieDB.settings')
 
-application = get_wsgi_application()
-import django.core.handlers.wsgi
+#application = get_wsgi_application()
 application = django.core.handlers.wsgi.WSGIHandler()
 #application = DjangoWhiteNoise(application)
