@@ -1,1 +1,1 @@
-web: python ../manage.py run_gunicorn
+web: python ./MovieDB/manage.py run_gunicorn
