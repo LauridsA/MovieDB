@@ -1,1 +1,1 @@
-web: gunicorn MovieDB.wsgy:application --log-level verbose
+web: gunicorn MovieDB.wsgy:application --pythonpath="$PWD/MovieDB" --log-level debug
