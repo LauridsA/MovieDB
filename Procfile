@@ -1,1 +1,1 @@
-web: gunicorn ProjectName.wsgi:application --log-file -
+web: gunicorn NetGuruMovieDB.wsgi:application --log-file -
