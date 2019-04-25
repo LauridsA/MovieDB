@@ -1,1 +1,1 @@
-web: gunicorn MovieDB:app --preload --workers 1
+web: gunicorn MovieDB:app --log-level debug
