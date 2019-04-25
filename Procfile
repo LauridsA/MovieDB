@@ -1,1 +1,1 @@
-web: MovieDB.wsgi:NetGuruMovieDB --log-file -
+web: MovieDB.wsgi:app --log-file -
