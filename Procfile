@@ -1,1 +1,1 @@
-web: MovieDB.wsgi:application --log-file -
+web: MovieDB.wsgi --log-file -
