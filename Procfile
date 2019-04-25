@@ -1,1 +1,1 @@
-web: gunicorn MovieDB:MovieDB --log-file -
+web: gunicorn MovieDB.MovieDB:NetGuruMovieDB --log-file -
