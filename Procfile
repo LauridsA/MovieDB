@@ -1,1 +1,1 @@
-web: gunicorn MovieDB.wsgi --log-file -
+web: gunicorn netgurumoviedb.wsgi --log-file -
