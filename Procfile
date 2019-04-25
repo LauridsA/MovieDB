@@ -1,1 +1,1 @@
-web: gunicorn MovieDB.app --log-level debug
+web: gunicorn MovieDB.wsgy:application --log-level debug
