@@ -32,7 +32,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    '.apps.NetGuruMovieDB'
+    'NetGuruMovieDB.apps.NetGuruMovieDB',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
