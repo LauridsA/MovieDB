@@ -3,7 +3,7 @@
 ## Links ##
 https://netgurumoviedb.herokuapp.com/
 
-## endpoints ## 
+## Endpoints ## 
 * /movies/{MovieId} --> Add a movie by its ID
 * /comments --> Get a list of all the comments in the database
 * /admin --> Log in to the admin page
@@ -13,6 +13,6 @@ https://netgurumoviedb.herokuapp.com/
 
 ## Estimated Hours Worked ##
 * Heroku: 7 hrs
-* Setup: 1 hrs
+* Setup: 2 hrs
 * Development of logic: 5 hrs
-* total: 15 hrs
+* total: ~15 hrs
